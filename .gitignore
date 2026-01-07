@@ -92,6 +92,7 @@ pip-selfcheck.json
 venv
 .venv
 Pipfile*
+uv.lock
 share/*
 /Scripts/
 
@@ -143,8 +144,11 @@ pytest_buckets.txt
 .claude/settings.local.json
 .serena/
 
-script/setup_custom
-tests/components/growspace_manager/__init__.py
-coverage/tmp/coverage-*.json
-.agent/workflows/bolt-perfomance.md
+.gitmodules
+trace_output.txt
 .agent/rules/codebase-location.md
+.agent/workflows/bolt-perfomance.md
+coverage/tmp/coverage-*.json
+homeassistant/components/growspace_manager/*
+tests/components/growspace_manager/__init__.py
+script/setup_custom
