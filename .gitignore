@@ -144,3 +144,11 @@ pytest_buckets.txt
 .claude/settings.local.json
 .serena/
 
+.gitmodules
+trace_output.txt
+.agent/rules/codebase-location.md
+.agent/workflows/bolt-perfomance.md
+coverage/tmp/coverage-*.json
+homeassistant/components/growspace_manager/*
+tests/components/growspace_manager/__init__.py
+script/setup_custom
