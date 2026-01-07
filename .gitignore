@@ -143,3 +143,8 @@ pytest_buckets.txt
 .claude/settings.local.json
 .serena/
 
+script/setup_custom
+tests/components/growspace_manager/__init__.py
+coverage/tmp/coverage-*.json
+.agent/workflows/bolt-perfomance.md
+.agent/rules/codebase-location.md
