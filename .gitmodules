@@ -1,0 +1,8 @@
+[submodule "vendor/growspace_manager"]
+	path = vendor/growspace_manager
+	url = https://github.com/Venosta-web/growspace_manager.git
+	branch = fix-aiAssistantConfigFlowSave
+[submodule "vendor/lovelace-growspace-manager-card"]
+	path = vendor/lovelace-growspace-manager-card
+	url = https://github.com/Venosta-web/lovelace-growspace-manager-card.git
+	branch = chore-refactorServies
