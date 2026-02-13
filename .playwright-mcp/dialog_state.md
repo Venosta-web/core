@@ -1,0 +1,515 @@
+### New console messages
+- [LOG] [AddPlantDialog] render called, open: true strains: 49 @ http://127.0.0.1:8123/local/community...
+- [LOG] [AddPlantDialog] render called, open: true strains: 49 @ http://127.0.0.1:8123/local/community...
+
+### Page state
+- Page URL: http://127.0.0.1:8123/dashboard-tesat/0
+- Page Title: tesat – Home Assistant
+- Page Snapshot:
+```yaml
+- generic [ref=e10]:
+  - complementary [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic "Seitenleiste umschalten" [ref=e16]:
+          - button "Seitenleiste umschalten" [ref=e17] [cursor=pointer]:
+            - generic [ref=e19]:
+              - img
+        - generic [ref=e20]: Home Assistant
+      - generic [ref=e21]:
+        - generic:
+          - listitem [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]:
+              - generic [ref=e26]:
+                - img
+              - generic [ref=e28]: tesat
+          - listitem [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - img
+              - generic [ref=e34]: Map
+          - listitem [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - generic [ref=e39]:
+                - img
+              - generic [ref=e41]: testCompactView
+          - listitem [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]:
+              - generic [ref=e46]:
+                - img
+              - generic [ref=e48]: testHeaderView
+          - listitem [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - img
+              - generic [ref=e54]: Energie
+          - listitem [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - img
+              - generic [ref=e60]: Aktivität
+          - listitem [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - img
+              - generic [ref=e66]: Verlauf
+          - listitem [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - img
+              - generic [ref=e72]: Medien
+          - listitem [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - img
+              - generic [ref=e78]: To-do-Listen
+          - listitem [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - img
+              - generic [ref=e84]: Entwicklerwerkzeuge
+          - listitem [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - img
+              - generic [ref=e90]: Einstellungen
+              - generic [ref=e91]: "3"
+      - generic [ref=e93]:
+        - generic:
+          - listitem [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - img
+              - generic [ref=e99]: Benachrichtigungen
+              - generic [ref=e100]: "1"
+          - listitem [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]:
+              - generic [ref=e105]: EU
+              - generic [ref=e107]: E2E User
+  - generic [ref=e112]:
+    - generic [ref=e115]:
+      - tablist [ref=e120]:
+        - generic:
+          - tab "Home" [selected] [ref=e121]:
+            - generic [ref=e122] [cursor=pointer]:
+              - generic: Home
+          - tab "Home 2" [ref=e123]:
+            - generic [ref=e124] [cursor=pointer]:
+              - generic: Home 2
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - button "Zu Home Assistant hinzufügen" [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]:
+              - img
+          - generic:
+            - generic:
+              - generic: Gerät hinzufügen
+              - generic: Automation erstellen
+              - generic: Bereich erstellen
+              - generic: Person hinzufügen
+        - button [ref=e135] [cursor=pointer]:
+          - generic [ref=e137]:
+            - img
+        - button [ref=e140] [cursor=pointer]:
+          - generic [ref=e142]:
+            - img
+        - generic [ref=e143]:
+          - button "Dashboard-Menü öffnen" [ref=e147] [cursor=pointer]:
+            - generic [ref=e149]:
+              - img
+          - generic:
+            - generic:
+              - generic: Ressourcen neu laden
+              - generic: Dashboard bearbeiten
+    - generic [ref=e157]:
+      - generic [ref=e170]:
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - heading "1412Test" [level=1] [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic:
+                  - img
+                - generic [ref=e178]:
+                  - generic [ref=e180] [cursor=pointer]:
+                    - generic [ref=e181]:
+                      - img
+                    - text: "On"
+                  - generic [ref=e183] [cursor=pointer]:
+                    - generic [ref=e184]:
+                      - img
+                    - text: "Exhaust: 0"
+                  - generic [ref=e186] [cursor=pointer]:
+                    - generic [ref=e187]:
+                      - img
+                    - text: "Fan: 1"
+                  - generic [ref=e189] [cursor=pointer]:
+                    - generic [ref=e190]:
+                      - img
+                    - text: "Humidifier: 0"
+                  - generic [ref=e192] [cursor=pointer]:
+                    - generic [ref=e193]:
+                      - img
+                    - text: "Dehumidifier: on"
+                - img [ref=e195] [cursor=pointer]
+              - img [ref=e199] [cursor=pointer]
+            - generic [ref=e201]:
+              - generic:
+                - img
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - img [ref=e204]
+                  - text: 17 Days Flower
+                - generic [ref=e206]:
+                  - img [ref=e207]
+                  - text: 3 Weeks Flower
+              - generic:
+                - img
+            - generic [ref=e209]:
+              - generic:
+                - img
+              - generic [ref=e210]:
+                - generic [ref=e212] [cursor=pointer]:
+                  - generic [ref=e213]:
+                    - img
+                  - text: "Moisture: 58%"
+                - generic [ref=e215] [cursor=pointer]:
+                  - generic [ref=e216]:
+                    - img
+                  - text: "Next: 13:15"
+                - generic [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]:
+                    - img
+                  - text: "Next: 14:05"
+                - generic [ref=e221] [cursor=pointer]:
+                  - generic [ref=e222]:
+                    - img
+                  - text: VPD out of range (0.89)
+              - img [ref=e224] [cursor=pointer]
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - img
+              - generic [ref=e228]:
+                - generic [ref=e229]: "23.7"
+                - generic [ref=e230]: °C
+            - generic [ref=e231]:
+              - img
+              - generic [ref=e232]:
+                - generic [ref=e233]: "58"
+                - generic [ref=e234]: "%"
+            - 'generic "VPD: 0.89 kPa (Target: 1-1.5)" [ref=e571]':
+              - img
+              - generic [ref=e236]:
+                - generic [ref=e237]: "0.89"
+                - generic [ref=e238]: kPa
+            - generic [ref=e239]:
+              - img
+              - generic [ref=e240]:
+                - generic [ref=e241]: "806"
+                - generic [ref=e242]: ppm
+        - generic [ref=e244]:
+          - generic [ref=e246] [cursor=pointer]:
+            - img "Prezzure" [ref=e247]
+            - 'generic "Last trained with: lollipopping" [ref=e250]':
+              - generic [ref=e251]:
+                - img
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - generic "Prezzure" [ref=e254]
+                - generic [ref=e256]: flower
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - img [ref=e259]
+                  - generic [ref=e261]: 20d
+                - generic [ref=e262]:
+                  - img [ref=e263]
+                  - generic [ref=e265]: 17d
+          - generic [ref=e267] [cursor=pointer]:
+            - img "Emerald Envy" [ref=e268]
+            - 'generic "Last trained with: super_cropping" [ref=e271]':
+              - generic [ref=e272]:
+                - img
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - generic "Emerald Envy" [ref=e275]
+                - generic [ref=e276]: default
+                - generic [ref=e278]: flower
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - img [ref=e281]
+                  - generic [ref=e283]: 18d
+                - generic [ref=e284]:
+                  - img [ref=e285]
+                  - generic [ref=e287]: 6d
+          - generic [ref=e290] [cursor=pointer]:
+            - generic [ref=e291]:
+              - generic "Test Strain 1767868930561" [ref=e292]
+              - generic [ref=e294]: flower
+            - generic [ref=e296]:
+              - img [ref=e297]
+              - generic [ref=e299]: 5d
+          - generic [ref=e300] [cursor=pointer]:
+            - img [ref=e302]
+            - generic [ref=e304]: Add Plant
+          - generic [ref=e305] [cursor=pointer]:
+            - img [ref=e307]
+            - generic [ref=e309]: Add Plant
+          - generic [ref=e310] [cursor=pointer]:
+            - img [ref=e312]
+            - generic [ref=e314]: Add Plant
+          - generic [ref=e315] [cursor=pointer]:
+            - img [ref=e317]
+            - generic [ref=e319]: Add Plant
+          - generic [ref=e320] [cursor=pointer]:
+            - img [ref=e322]
+            - generic [ref=e324]: Add Plant
+          - generic [ref=e325] [cursor=pointer]:
+            - img [ref=e327]
+            - generic [ref=e329]: Add Plant
+      - generic [ref=e343]:
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - heading "dry" [level=1] [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - generic:
+                  - img
+                - generic [ref=e351]:
+                  - generic [ref=e353] [cursor=pointer]:
+                    - generic [ref=e354]:
+                      - img
+                    - text: "Exhaust: 0"
+                  - generic [ref=e356] [cursor=pointer]:
+                    - generic [ref=e357]:
+                      - img
+                    - text: "Fan: 1"
+                  - generic [ref=e359] [cursor=pointer]:
+                    - generic [ref=e360]:
+                      - img
+                    - text: "Dehumidifier: on"
+                - img [ref=e362] [cursor=pointer]
+              - img [ref=e366] [cursor=pointer]
+            - generic [ref=e368]:
+              - generic:
+                - img
+              - generic [ref=e369]:
+                - generic [ref=e370]:
+                  - img [ref=e371]
+                  - text: 38 Days Dry
+                - generic [ref=e373]:
+                  - img [ref=e374]
+                  - text: 6 Weeks Dry
+              - generic:
+                - img
+            - generic [ref=e376]:
+              - generic:
+                - img
+              - generic [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]:
+                  - img
+                - text: Temp out of rangeHumidity out of range
+              - img [ref=e382] [cursor=pointer]
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - img
+              - generic [ref=e386]:
+                - generic [ref=e387]: "23.7"
+                - generic [ref=e388]: °C
+            - generic [ref=e389]:
+              - img
+              - generic [ref=e390]:
+                - generic [ref=e391]: "58"
+                - generic [ref=e392]: "%"
+            - 'generic "VPD: 0.89 kPa (Target: 0.8-1.1)" [ref=e572]':
+              - img
+              - generic [ref=e394]:
+                - generic [ref=e395]: "0.89"
+                - generic [ref=e396]: kPa
+        - generic [ref=e398]:
+          - generic [ref=e401] [cursor=pointer]:
+            - generic [ref=e402]:
+              - generic "Test Strain 1765715982807" [ref=e403]
+              - generic [ref=e405]: dry
+            - generic [ref=e407]:
+              - img [ref=e408]
+              - generic [ref=e410]: 25d
+          - generic [ref=e412] [cursor=pointer]:
+            - img "Chem Cake" [ref=e413]
+            - generic [ref=e415]:
+              - generic [ref=e416]:
+                - generic "Chem Cake" [ref=e417]
+                - generic [ref=e418]: "#2"
+                - generic [ref=e420]: dry
+              - generic [ref=e422]:
+                - img [ref=e423]
+                - generic [ref=e425]: 31d
+          - generic [ref=e429] [cursor=pointer]:
+            - generic "Test Strain 1767869059334" [ref=e430]
+            - generic [ref=e432]: dry
+          - generic [ref=e434] [cursor=pointer]:
+            - img "GMO" [ref=e435]
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - generic "GMO" [ref=e439]
+                - generic [ref=e441]: dry
+              - generic [ref=e443]:
+                - img [ref=e444]
+                - generic [ref=e446]: 10d
+          - generic [ref=e449] [cursor=pointer]:
+            - generic [ref=e450]:
+              - generic "Editor Delete 1765572151937" [ref=e451]
+              - generic [ref=e453]: dry
+            - generic [ref=e455]:
+              - img [ref=e456]
+              - generic [ref=e458]: 38d
+          - generic [ref=e460] [cursor=pointer]:
+            - img "Sherb Cream Pie" [ref=e461]
+            - generic [ref=e463]:
+              - generic [ref=e464]:
+                - generic "Sherb Cream Pie" [ref=e465]
+                - generic [ref=e467]: dry
+              - generic [ref=e469]:
+                - img [ref=e470]
+                - generic [ref=e472]: 10d
+          - generic [ref=e476] [cursor=pointer]:
+            - generic "Test Strain 1767869206754" [ref=e477]
+            - generic [ref=e479]: dry
+          - generic [ref=e480] [cursor=pointer]:
+            - img [ref=e482]
+            - generic [ref=e484]: Add Plant
+          - generic [ref=e485] [cursor=pointer]:
+            - img [ref=e487]
+            - generic [ref=e489]: Add Plant
+      - generic [ref=e498]:
+        - generic [ref=e503]:
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - heading "cure" [level=1] [ref=e508]
+              - generic [ref=e509]:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                - img [ref=e512] [cursor=pointer]
+              - generic [ref=e514]:
+                - generic:
+                  - img
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - img [ref=e517]
+                    - text: 10 Days Cure
+                  - generic [ref=e519]:
+                    - img [ref=e520]
+                    - text: 2 Weeks Cure
+                - generic:
+                  - img
+              - generic [ref=e522]:
+                - generic:
+                  - img
+                - generic [ref=e525] [cursor=pointer]:
+                  - generic [ref=e526]:
+                    - img
+                  - text: Humidity Optimal for CuringTemp out of range
+                - img [ref=e528] [cursor=pointer]
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - img
+                - generic [ref=e532]:
+                  - generic [ref=e533]: "23.7"
+                  - generic [ref=e534]: °C
+              - generic [ref=e535]:
+                - img
+                - generic [ref=e536]:
+                  - generic [ref=e537]: "58"
+                  - generic [ref=e538]: "%"
+              - 'generic "VPD: 0.89 kPa (Target: 0.7-0.9)" [ref=e573]':
+                - img
+                - generic [ref=e540]:
+                  - generic [ref=e541]: "0.89"
+                  - generic [ref=e542]: kPa
+          - generic [ref=e544]:
+            - generic [ref=e546] [cursor=pointer]:
+              - img "French Maccaron" [ref=e547]
+              - generic [ref=e549]:
+                - generic [ref=e550]:
+                  - generic "French Maccaron" [ref=e551]
+                  - generic [ref=e552]: "#2"
+                  - generic [ref=e554]: cure
+                - generic [ref=e556]:
+                  - img [ref=e557]
+                  - generic [ref=e559]: 10d
+            - generic [ref=e560] [cursor=pointer]:
+              - img [ref=e562]
+              - generic [ref=e564]: Add Plant
+            - generic [ref=e565] [cursor=pointer]:
+              - img [ref=e567]
+              - generic [ref=e569]: Add Plant
+        - alertdialog [ref=e574]:
+          - generic [ref=e577]:
+            - generic [ref=e578]:
+              - img [ref=e580]
+              - generic [ref=e582]:
+                - heading "Add New Plant" [level=2] [ref=e583]
+                - generic [ref=e584]: Enter plant details below
+              - button [ref=e585] [cursor=pointer]:
+                - img [ref=e586]
+            - generic [ref=e588]:
+              - generic [ref=e589]:
+                - heading "Identity & Location" [level=3] [ref=e590]
+                - generic [ref=e592]:
+                  - generic: Strain *
+                  - combobox [ref=e593]:
+                    - option "Select..." [selected]
+                    - option "2112Test"
+                    - option "Apple Fritter"
+                    - option "Blue Gem"
+                    - option "Chem Cake"
+                    - option "Cuban Marker"
+                    - option "Emerald Envy"
+                    - option "French Maccaron"
+                    - option "GMO"
+                    - option "Gastopia"
+                    - option "Gastro Pop"
+                    - option "Gelato 33"
+                    - option "Jokerz 31"
+                    - option "MelonSicle"
+                    - option "Pink Certz"
+                    - option "Prezzure"
+                    - option "Runtz Carlton"
+                    - option "SFV OG Kush"
+                    - option "Sherb Cream Pie"
+                    - option "Snackpack"
+                    - option "Sunset Paradise"
+                    - option "Test Strain 1767867866851"
+                    - option "Test Strain 1767867896039"
+                    - option "Test Strain 1767868919079"
+                    - option "Test Strain 1767868930561"
+                    - option "Test Strain 1767869048507"
+                    - option "Test Strain 1767869059334"
+                    - option "Test Strain 1767869195502"
+                    - option "Test Strain 1767869206754"
+                    - option "Thotline Bling"
+                    - option "Tropicana Crush"
+                    - option "asdffdasTEST JETZT 2112"
+                - generic [ref=e595]:
+                  - generic: Phenotype
+                  - textbox [ref=e596]: "#1"
+                - generic [ref=e597]:
+                  - generic [ref=e599]:
+                    - generic: Row
+                    - spinbutton [ref=e601]: "1"
+                  - generic [ref=e603]:
+                    - generic: Col
+                    - spinbutton [ref=e605]: "1"
+              - generic [ref=e606]:
+                - heading "Timeline" [level=3] [ref=e607]
+                - generic [ref=e609]:
+                  - generic: Cure Start
+                  - textbox [ref=e610]
+            - generic [ref=e611]:
+              - button "Cancel" [ref=e612] [cursor=pointer]
+              - button "Add Plant" [ref=e613] [cursor=pointer]:
+                - img [ref=e614]
+                - text: Add Plant
+```
