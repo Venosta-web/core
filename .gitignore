@@ -152,3 +152,4 @@ coverage/tmp/coverage-*.json
 homeassistant/components/growspace_manager/*
 tests/components/growspace_manager/__init__.py
 script/setup_custom
+.worktrees/
